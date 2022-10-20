@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Hijo from "./components/Hijo";
 
-function App() {
+const people = [
+{
+  name: "Juan",
+  age: 54
+},
+{
+  name: "Mati",
+  age: 22
+},{
+  name: "Emi",
+  age: 16
+}
+]
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Hijo datos ={people} />
     </div>
   );
 }
