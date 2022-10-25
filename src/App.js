@@ -1,25 +1,16 @@
-import Hijo from "./components/Hijo";
+import './components/styles.css';
+import NavBar from './components/NavBar.js';
+import ItemListContainer from './components/ItemListContainer.js';
 
-const people = [
-{
-  name: "Juan",
-  age: 54
-},
-{
-  name: "Mati",
-  age: 22
-},{
-  name: "Emi",
-  age: 16
-}
-]
 
 const App = () => {
-  return (
-    <div>
-      <Hijo datos ={people} />
+    <div className='app' >
+        <NavBar />
+        <ItemListContainer>
+            Compre el servicio que necesita!
+        </ItemListContainer>
+     
     </div>
-  );
 }
 
 export default App;
