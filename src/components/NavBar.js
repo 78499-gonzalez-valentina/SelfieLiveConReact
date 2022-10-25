@@ -5,13 +5,16 @@ const NavBar = () => {
   return (
     <div className='navbar'> 
         <img src={foto} alt="logo"></img>
-        <ul>
-            <li>Inicio</li>
-            <li>Servicio</li>
-            <li>Como Funciona</li>
-            <li>Eventos</li>
-            <li>Contacto</li>
-        </ul>
+        <div className='menu'>
+            <ul>
+                <li>Inicio</li>
+                <li>Servicio</li>
+                <li>Como Funciona</li>
+                <li>Eventos</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+        
       
         <CartWidget />
     </div>
