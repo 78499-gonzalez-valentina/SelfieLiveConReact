@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea046712.css",
+    "main.js": "/static/js/main.00b15f73.js",
+    "static/media/Valu Selfieminii.png": "/static/media/Valu Selfieminii.6f62ea3423bcdf0d2c67.png",
+    "index.html": "/index.html",
+    "main.ea046712.css.map": "/static/css/main.ea046712.css.map",
+    "main.00b15f73.js.map": "/static/js/main.00b15f73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea046712.css",
+    "static/js/main.00b15f73.js"
+  ]
+}
